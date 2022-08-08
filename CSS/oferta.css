@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+}
+.row{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu{
+    /*background-color: gold;*/
+    background: rgb(81,82,2);
+    background: linear-gradient(90deg, rgba(81,82,2,1) 0%, rgba(210,160,6,1) 15%, rgba(202,153,15,1) 40%, rgba(202,153,15,1) 60%, rgba(210,160,6,1) 85%, rgba(81,82,2,1) 100%);
+}
+#logo{
+    width: 35%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+#listamenu{
+    list-style: none;
+    text-align: right; 
+    color: gold;   
+}
+div a{
+    font-family: cursive;
+}
+ul li a:hover{
+    color: chocolate;
+    text-decoration: none;
+}
+body div div a:hover{
+    text-decoration: none;
+    color: chocolate;
+}
+body div div a{
+    color: aliceblue;
+}
+ul li:hover{
+    background-color: rgb(188, 188, 17);
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+footer{
+    text-align: left;
+}
+#imagenmenu{
+    vertical-align: text-bottom;
+}
+footer{
+    text-align: center;
+    font-family:fantasy;
+}
+#descripciones{
+    text-align: center;
+    font-size: 30px;
+}
+#link{
+    color: rgb(5, 36, 194);  
+}
+#link:hover{
+    color: chocolate;
+}

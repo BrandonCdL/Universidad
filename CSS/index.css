@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(237, 190, 89);
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: larger;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu{
+    /*background-color: gold;*/
+    background: rgb(81,82,2);
+    background: linear-gradient(90deg, rgba(81,82,2,1) 0%, rgba(210,160,6,1) 15%, rgba(202,153,15,1) 40%, rgba(202,153,15,1) 60%, rgba(210,160,6,1) 85%, rgba(81,82,2,1) 100%);
+}
+#logo{
+    width: 35%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+#listamenu{
+    list-style: none;
+    text-align: right; 
+    color: gold;   
+}
+ul li a:hover{
+    color: chocolate;
+    text-decoration: none;
+}
+body div div a:hover{
+    text-decoration: none;
+    color: chocolate;
+}
+body div div a{
+    color: aliceblue;
+}
+ul li:hover{
+    background-color: rgb(188, 188, 17);
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+#frase{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 70px;
+    background-color: gold;
+    color: aliceblue;
+    height: 413px;
+    background: rgb(81,82,2);
+    background: linear-gradient(90deg, rgba(81,82,2,1) 0%, rgba(210,160,6,1) 15%, rgba(202,153,15,1) 40%, rgba(202,153,15,1) 60%, rgba(210,160,6,1) 85%, rgba(81,82,2,1) 100%);
+}
+footer{
+    text-align: left;
+}
+#imagenmenu{
+    vertical-align: text-bottom;
+}
+#imagenfrase{
+    float: right;
+}
+iframe{
+    /*margin-left: 263px;
+    margin-right: 250px;*/
+}
+div a{
+    font-family: cursive;
+}
+footer{
+    text-align: center;
+    font-family:fantasy;
+}
+#descripciones{
+    text-align: center;
+    font-size: 30px;
+}
+
+#imagenes{
+    display: flex;
+    flex-direction: row;
+    animation-name: Slider;
+    animation-duration: 25s;
+    /*animation-delay: 1s;*/
+    animation-fill-mode: infinite;
+    overflow: hidden;
+}
+#iconos{
+    padding-top: 30px;
+}
+div div i{
+    color: black;
+}
+#textarea{
+    resize: none;
+}
+@keyframes Slider{
+    0%{
+        margin-left: 0%;
+    }
+    25%{
+        margin-left: 0%;
+    }
+    50%{
+        margin-left: -143%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+
+}
+/*pre::first-line{
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/

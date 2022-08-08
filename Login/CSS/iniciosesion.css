@@ -1,0 +1,17 @@
+#login{
+    background-color: beige;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+h2{
+    color: rgb(220, 163, 110);
+}
+#entradatexto{
+    border-radius: 9%;
+    border-style: dashed;
+}
+#boton{
+    border-color: azure;
+    background-color: rgb(245, 233, 218);
+}
